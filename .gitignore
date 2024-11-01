@@ -1,0 +1,6 @@
+# Ignore the node_modules directory
+basic/index.html
+basic/main.js
+basic/vite/package.json
+basic/vite/node_modules
+basic/vite/package-lock.json
