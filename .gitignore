@@ -5,3 +5,9 @@ basic/vite/package.json
 basic/vite/node_modules
 basic/vite/package-lock.json
 basic/vite/.gitignore
+basic/vite-react/.gitignore
+basic/vite-react/package.json
+basic/vite-react/node_modules
+basic/vite-react/package-lock.json
+basic/vite-react/README.md
+basic/vite-react/vite.config.js
