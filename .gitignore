@@ -4,3 +4,4 @@ basic/main.js
 basic/vite/package.json
 basic/vite/node_modules
 basic/vite/package-lock.json
+basic/vite/.gitignore
