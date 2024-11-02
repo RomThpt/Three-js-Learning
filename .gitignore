@@ -1,13 +1,24 @@
-# Ignore the node_modules directory
-basic/index.html
-basic/main.js
-basic/vite/package.json
-basic/vite/node_modules
-basic/vite/package-lock.json
-basic/vite/.gitignore
-basic/vite-react/.gitignore
-basic/vite-react/package.json
-basic/vite-react/node_modules
-basic/vite-react/package-lock.json
-basic/vite-react/README.md
-basic/vite-react/vite.config.js
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
