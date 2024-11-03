@@ -11,3 +11,4 @@ basic/vite-react/node_modules
 basic/vite-react/package-lock.json
 basic/vite-react/README.md
 basic/vite-react/vite.config.js
+node_modules
