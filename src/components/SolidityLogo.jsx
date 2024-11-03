@@ -5,19 +5,20 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/solidity-logo-3d-model-dda38cbf606f43ebaa6438d450feb454
 Title: Solidity logo 3D Model
 */
+
+import React, { useRef } from "react";
 import { Float, useGLTF } from "@react-three/drei";
 
 const SolidityLogo = (props) => {
     const { nodes, materials } = useGLTF("models/solidity.glb");
-
     return (
         <Float floatIntensity={1}>
-            <group {...props} position={[8, 8, 0]} scale={0.3} dispose={null}>
+            <ambientLight intensity={1} />
+            <group scale={100000} {...props} dispose={null}>
                 <mesh
-                    name="Curve_Solidity-Body_0"
                     geometry={nodes["Curve_Solidity-Body_0"].geometry}
                     material={materials["Solidity-Body"]}
-                    scale={10}
+                    scale={100}
                 />
             </group>
         </Float>
