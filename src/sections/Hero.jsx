@@ -54,7 +54,7 @@ const Hero = () => {
                                 position={sizes.solidityLogoPosition}
                             />
                         </group>
-                        <ambientLight intensity={1000} />
+                        <ambientLight intensity={10} />
                         <directionalLight
                             intensity={0.5}
                             position={[10, 10, 10]}
